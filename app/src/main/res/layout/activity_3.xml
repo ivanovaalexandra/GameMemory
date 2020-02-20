@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_hor"
+    tools:context=".Activity3">
+
+    <Button
+        android:id="@+id/btBack"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_keyboard_backspace_black_24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btBack"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/timer"
+        android:textSize="50dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/linerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        >
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/iv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivWood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linerLayout"
+        android:background="@drawable/wood"
+        />
+
+</RelativeLayout>
